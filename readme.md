@@ -20,6 +20,7 @@ git clean -fd (file + dir)
 BRANCH & MERGE
 git checkout master + git merge feature
 a. fast-forward (no commits before)
+b. no-fast-forward (merge commit created)
 
 PULL & FETCH
 git branch -r (origin/master)
