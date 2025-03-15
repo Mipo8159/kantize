@@ -25,6 +25,12 @@ b. no-fast-forward (merge commit created)
 PULL & FETCH
 git branch -r (origin/master)
 git pull (fetch + merge) -> [fetch to origin] + [merge to branch]
+git branch -D <branch-name> (force delete)
 
-Squash and Merge
-Rebase and Merge
+REBASE
+git merge <branch-name> (safer commit history)
+git rebase <branch-name> (no additional commit)
+git rebase -i
+
+Squash and Merge -> squash to one commit
+Rebase and Merge -> preserve commit history
