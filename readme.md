@@ -30,7 +30,7 @@ git branch -D <branch-name> (force delete)
 REBASE
 git merge <branch-name> (safer commit history)
 git rebase <branch-name> (no additional commit)
-git rebase -i
+git rebase -i (interactive rebase)
 
 Squash and Merge -> squash to one commit
 Rebase and Merge -> preserve commit history
